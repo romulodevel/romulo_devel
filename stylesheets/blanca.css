@@ -1,5 +1,5 @@
 body {
-  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -8,7 +8,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 p,
 li,
@@ -18,15 +18,16 @@ input,
 button,
 select,
 textarea {
-  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p,
 li,
 label {
   color: #555;
+  font-size: 14px;
 }
 blockquote p {
-  font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 #nav .navbar-inner {
@@ -70,13 +71,22 @@ blockquote p {
   background-image: none;
   box-shadow: none;
 }
-#nav .brand {
-  font-family: "Oleo Script", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.navbar .brand {
+  padding: 3px 20px 3px 10px;
+}
+#nav .brand span{
+  color: #A3BD31;
+}
+#nav .brand .romulo-devel-small{
+  width: 200px;
 }
 #nav .nav .active > a,
 #nav .nav .active > a:hover {
   background-color: #f6f6f6 !important;
   color: #555 !important;
+}
+.stripe-logo {
+  text-align: center;
 }
 .stripe-top {
   background-image: url("http://subtlepatterns.com/patterns/arches.png");
@@ -100,6 +110,9 @@ blockquote p {
 .nav-list > .active > a,
 .nav-list > .active > a:hover {
   background-color: #333;
+}
+footer {
+  margin-top: 10px;
 }
 footer h6 {
   margin-bottom: 8px;
@@ -313,6 +326,7 @@ footer .stripe-color {
 /* ========== INDEX ========== */
 .landing-message {
   padding: 20px 0px 0px !important;
+  margin: 80px 0 40px;
   font-style: italic;
   text-align: center;
 }
