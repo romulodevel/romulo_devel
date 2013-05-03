@@ -327,8 +327,13 @@ footer .stripe-color {
 .landing-message {
   padding: 20px 0px 0px !important;
   margin: 80px 0 40px;
-  font-style: italic;
   text-align: center;
+}
+.landing-message h1 {
+  font-size: 48px;
+}
+.landing-message h2 {
+  color: gray;
 }
 img.feature-icon {
   float: right;
@@ -414,3 +419,8 @@ article {
 #portfolio {
   margin-bottom: 60px;
 }
+/* ========== PALESTRA ========== */
+.why-agile  i{
+  color: gray;
+}
+
